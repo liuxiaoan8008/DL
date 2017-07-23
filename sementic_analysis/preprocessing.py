@@ -37,7 +37,7 @@ def review_to_words(raw_review,remove_stopwords=False):
     if remove_stopwords:
         stops = set(stopwords.words("english"))
         words = [w for w in words if not w in stops]
-    return " ".join(words)
+    return words
 
 # # prepare train data
 # train = pd.read_csv(g.path+'labeledTrainData.tsv', header=0, delimiter='\t', quoting=3)

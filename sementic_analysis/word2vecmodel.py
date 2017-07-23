@@ -12,6 +12,7 @@ def review_to_sentences(review,tokenizer, remove_stopword=False):
     sentences = []
     for raw_sentence in raw_sentences:
         if len(raw_sentence) > 0:
+            # print pre.review_to_words(raw_sentence,remove_stopword)
             sentences.append(pre.review_to_words(raw_sentence,remove_stopword))
     return sentences
 
@@ -50,4 +51,7 @@ model.init_sims(replace=True)
 model_name = g.m_path+'300features_40minwords_10context'
 model.save(model_name)
 
-
+model = word2vec.Word2Vec.load(model_name)
+# for word, vocab_obj in model.wv.vocab.items():
+#     print word, vocab_obj
+print model.score(['the cat run on the road'.split()])
