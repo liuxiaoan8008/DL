@@ -77,7 +77,7 @@ def review_to_words(raw_review,remove_stopwords=False):
 # clean_test_review = []
 # for i in xrange(0,test_reiviews):
 #     if (i+1)%1000 == 0:
-#         print 'Review %d of %d\n' % (i+1,test_reiviews)
+#       print 'Review %d of %d\n' % (i+1,test_reiviews)
 #     clean_test_review.append(review_to_words(test['review'][i]))
 # test_data_features = vectorizer.transform(clean_test_review)
 # test_data_features = test_data_features.toarray()
