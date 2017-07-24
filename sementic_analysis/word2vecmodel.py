@@ -26,7 +26,10 @@ def makeFeatureVec(words,model,num_features):
         if word in index2word_set:
             nwords += 1
             featureVec = np.add(featureVec,model[word])
-    featureVec = np.divide(featureVec,nwords)
+    if nwords != 0:
+        featureVec = np.divide(featureVec,nwords)
+    else:
+        print 'find a empty sentence!'
     return featureVec
 
 def getReAvgFeatureVecs(reviews,model,num_features):
@@ -35,7 +38,7 @@ def getReAvgFeatureVecs(reviews,model,num_features):
     reviewFeatureVec = np.zeros((num_review,num_features))
     for review in reviews:
         if counter % 1000 == 0:
-            print 'Review %d of %d' % (counter,num_review)
+            print 'avg_feature of Review %d of %d' % (counter,num_review)
         reviewFeatureVec[counter] = makeFeatureVec(review,model,num_features)
         counter += 1
     return reviewFeatureVec
@@ -85,7 +88,8 @@ model = word2vec.Word2Vec.load(model_name)
 # print model['flower']
 
 # prepare train data
-train = pd.read_csv(g.path+'labeledTrainData.tsv', header=0, delimiter='\t', quoting=3)[:100]
+print 'prepare train data....'
+train = pd.read_csv(g.path+'labeledTrainData.tsv', header=0, delimiter='\t', quoting=3)
 num_reivews = train['review'].size
 clean_review = []
 for i in xrange(0,num_reivews):
@@ -95,7 +99,8 @@ for i in xrange(0,num_reivews):
 trainDataVecs = getReAvgFeatureVecs(clean_review,model,num_features)
 
 # prepare test data
-test = pd.read_csv(g.path+'testData.tsv', header=0, delimiter='\t', quoting=3)[:100]
+print 'prepare test data...'
+test = pd.read_csv(g.path+'testData.tsv', header=0, delimiter='\t', quoting=3)
 test_reiviews = len(test['review'])
 clean_test_review = []
 for i in xrange(0,test_reiviews):
