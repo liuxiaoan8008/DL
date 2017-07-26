@@ -9,6 +9,18 @@ from gensim.models import word2vec
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
+def loadGloveModel(gloveFile):
+    print "Loading Glove Model..."
+    f = open(gloveFile,'r')
+    model = {}
+    for line in f:
+        splitLine = line.split()
+        word = splitLine[0]
+        embedding = [float(val) for val in splitLine[1:]]
+        model[word] = embedding
+    print "Done.",len(model)," words loaded!"
+    return model
+
 def review_to_sentences(review,tokenizer, remove_stopword=False):
     raw_sentences = tokenizer.tokenize(review.strip().decode('utf-8'))
     sentences = []
@@ -76,16 +88,18 @@ downsampling = 1e-3   # Downsample setting for frequent words
 #                           window=context,sample=downsampling)
 # model.init_sims(replace=True)
 
-model_name = g.m_path+'300features_40minwords_10context'
+# model_name = g.m_path+'300features_40minwords_10context'
 # model.save(model_name)
 
-model = word2vec.Word2Vec.load(model_name)
+# model = word2vec.Word2Vec.load(model_name)
 # for word, vocab_obj in model.wv.vocab.items():
 #     print word, vocab_obj
 # print model.doesnt_match("man woman child cat".split())
 # print model.most_similar("man")
 # print model.most_similar("awful")
 # print model['flower']
+
+model = loadGloveModel(g.m_path+'glove.6B.300d.txt')
 
 # prepare train data
 print 'prepare train data....'
