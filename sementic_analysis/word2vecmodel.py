@@ -33,7 +33,7 @@ def review_to_sentences(review,tokenizer, remove_stopword=False):
 def makeFeatureVec(words,model,num_features):
     featureVec = np.zeros((num_features,),dtype='float32')
     nwords = 0
-    index2word_set = set(model.wv.index2word)
+    index2word_set = set(model.keys())
     for word in words:
         if word in index2word_set:
             nwords += 1
@@ -130,7 +130,7 @@ forest = forest.fit(trainDataVecs,train['sentiment'])
 # predict
 result = forest.predict(testDataVecs)
 output = pd.DataFrame(data={'id':test['id'],'sentiment':result})
-output.to_csv(g.path+'word2vec_model.csv',index=False,quoting=3)
+output.to_csv(g.path+'glove_model_result.csv',index=False,quoting=3)
 
 
 

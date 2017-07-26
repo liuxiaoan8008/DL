@@ -10,7 +10,10 @@ from sklearn.ensemble import RandomForestClassifier
 
 # loading word2vec model
 print 'loading word2vec model...'
-model = word2vec.Word2Vec.load(g.m_path+'300features_40minwords_10context')
+# model = word2vec.Word2Vec.load(g.m_path+'glove.6B.300d.txt')
+# model = word2vec.KeyedVectors.load_word2vec_format(g.m_path+'glove.6B.300d.txt',binary=False)
+
+
 
 word_vectors = model.wv.syn0 # word2vec vocab numpy matirx
 vocab_list = model.wv.index2word # wrod2vec vocab list
@@ -94,4 +97,4 @@ forest = forest.fit(train_centroids,train["sentiment"])
 result = forest.predict(test_centroids)
 # Write the test results
 output = pd.DataFrame(data={"id":test["id"], "sentiment":result})
-output.to_csv(g.m_path+"BagOfCentroids.csv", index=False, quoting=3 )
+output.to_csv(g.m_path+"BagOfCentroids_glove.csv", index=False, quoting=3 )
