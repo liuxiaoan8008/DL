@@ -1,12 +1,14 @@
 #encoding=utf-8
 import os
 from gensim.models import word2vec
+import thulac
 
 data_path = './data/'
 model_path = './model/'
 
 
 def sentence_pre_process(line):
+
     return line
 
 class MySentences(object):
@@ -26,7 +28,7 @@ min_word_count = 40   # Minimum word count
 num_workers = 6       # Number of threads to run in parallel
 context = 10          # Context window size
 downsampling = 1e-3   # Downsample setting for frequent words
-model_name = 'xxxword2vec.model'
+model_name = 'word2vec_wiki2017page_article.model'
 
 # load sentence from the directory
 sentences = MySentences(data_path) # a memory-friendly iterator
