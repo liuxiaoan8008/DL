@@ -33,17 +33,30 @@ context = 10          # Context window size
 downsampling = 1e-3   # Downsample setting for frequent words
 model_name = 'word2vec_wiki2017page_article.model'
 
-# load sentence from the directory
-thu1 = thulac.thulac()
-sentences = MySentences(data_path,thu1) # a memory-friendly iterator
-print 'train word2vec ...'
-model = word2vec.Word2Vec(sentences,workers=num_workers,size=num_features,min_count=min_word_count,
-                          window=context,sample=downsampling)
-print 'save model...'
-model.save(model_path+model_name)
-print 'finish.'
+
+def train_model():
+    global thu1
+    # load sentence from the directory
+    thu1 = thulac.thulac()
+    sentences = MySentences(data_path, thu1)  # a memory-friendly iterator
+    print 'train word2vec ...'
+    model = word2vec.Word2Vec(sentences, workers=num_workers, size=num_features, min_count=min_word_count,
+                              window=context, sample=downsampling)
+    print 'save model...'
+    model.save(model_path + model_name)
+    print 'finish.'
+
+
+# train_model()
 # load trained model
-# model = word2vec.Word2Vec.load(model_name)
+print 'loading model ...'
+model = word2vec.Word2Vec.load(model_path+model_name)
+# word_vectors = model.wv.syn0 # word2vec vocab numpy matirx
+vocab_list = model.wv.index2word # wrod2vec vocab list
+print len(vocab_list)
+for vo in vocab_list[:100]:
+    print vo
+
 
 
 # with open(data_path+'wiki_test') as wiki:

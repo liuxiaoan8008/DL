@@ -10,10 +10,8 @@ from sklearn.ensemble import RandomForestClassifier
 
 # loading word2vec model
 print 'loading word2vec model...'
-# model = word2vec.Word2Vec.load(g.m_path+'glove.6B.300d.txt')
-# model = word2vec.KeyedVectors.load_word2vec_format(g.m_path+'glove.6B.300d.txt',binary=False)
-
-
+model = word2vec.Word2Vec.load(g.m_path+'glove.6B.300d.txt')
+model = word2vec.KeyedVectors.load_word2vec_format(g.m_path+'glove.6B.300d.txt',binary=False)
 
 word_vectors = model.wv.syn0 # word2vec vocab numpy matirx
 vocab_list = model.wv.index2word # wrod2vec vocab list
