@@ -4,6 +4,7 @@ from gensim.models import word2vec
 import thulac
 from bs4 import BeautifulSoup
 import chardet
+import time
 
 data_path = '/var/data/wiki/wikiex/AA/in/'
 model_path = './model/'
@@ -19,7 +20,7 @@ class MySentences(object):
     def __iter__(self):
         for fname in os.listdir(self.dirname):
             for line in open(os.path.join(self.dirname, fname)):
-                line = thu1.cut(line) # preprocess
+                line = thu1.cut(line,text=True) # preprocess
                 words = line.split()
                 yield words
 # Set values for various parameters
@@ -46,8 +47,11 @@ def train_model():
     print
     print 'finish.'
 
-
+start = time.time()
 train_model()
+end = time.time()
+elapsed = end - start
+print 'The time token for training gensim-SG model : ',elapsed/60,'min'
 # load trained model
 # print 'loading model ...'
 # model = word2vec.Word2Vec.load(model_path+model_name)

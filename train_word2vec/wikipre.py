@@ -5,6 +5,7 @@ import codecs
 from zhon import hanzi,pinyin
 import chardet
 
+
 def myfun(input_file):
     '''
     繁体转简体后，一些符号修正。
