@@ -8,7 +8,6 @@ import chardet
 data_path = '/var/data/wiki/wikiex/AA/in/'
 model_path = './model/'
 
-
 def sentence_pre_process(line):
     line = BeautifulSoup(line, 'lxml').get_text()
     return line
@@ -23,15 +22,13 @@ class MySentences(object):
                 line = thu1.cut(line) # preprocess
                 words = line.split()
                 yield words
-
-
 # Set values for various parameters
-num_features = 300    # Word vector dimensionality
+num_features = 50    # Word vector dimensionality
 min_word_count = 40   # Minimum word count
 num_workers = 6       # Number of threads to run in parallel
 context = 10          # Context window size
 downsampling = 1e-3   # Downsample setting for frequent words
-model_name = 'word2vec_wiki2017page_article.model'
+model_name = 'w2c_wiki_50.model'
 
 
 def train_model():
@@ -39,23 +36,26 @@ def train_model():
     # load sentence from the directory
     thu1 = thulac.thulac()
     sentences = MySentences(data_path, thu1)  # a memory-friendly iterator
+    print
     print 'train word2vec ...'
     model = word2vec.Word2Vec(sentences, workers=num_workers, size=num_features, min_count=min_word_count,
                               window=context, sample=downsampling)
+    print
     print 'save model...'
     model.save(model_path + model_name)
+    print
     print 'finish.'
 
 
-# train_model()
+train_model()
 # load trained model
-print 'loading model ...'
-model = word2vec.Word2Vec.load(model_path+model_name)
-# word_vectors = model.wv.syn0 # word2vec vocab numpy matirx
-vocab_list = model.wv.index2word # wrod2vec vocab list
-print len(vocab_list)
-for vo in vocab_list[:100]:
-    print vo
+# print 'loading model ...'
+# model = word2vec.Word2Vec.load(model_path+model_name)
+# # word_vectors = model.wv.syn0 # word2vec vocab numpy matirx
+# vocab_list = model.wv.index2word # wrod2vec vocab list
+# print len(vocab_list)
+# for vo in vocab_list[:100]:
+#     print vo
 
 
 
