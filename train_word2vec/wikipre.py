@@ -2,9 +2,14 @@
 import re
 import sys
 import codecs
-from zhon import hanzi,pinyin
-import chardet
+import thulac
+from bs4 import BeautifulSoup
 
+in_path = './data/'
+out_path = './data/'
+model_path = ''
+reload(sys)                      # reload 才能调用 setdefaultencoding 方法
+sys.setdefaultencoding('utf-8')  # 设置 'utf-8'
 
 def myfun(input_file):
     '''
@@ -27,35 +32,38 @@ def myfun(input_file):
     outfile.close()
     print 'finish file :',input_file
 
-def getline(input_file):
+
+# data clean
+def getsentence(input_file):
     '''
-    去掉标点符号，形成word2vec的输入
-    :param input_file:
-    :return:
-    '''
-    outfile = codecs.open('in_' + input_file, 'w', 'utf-8')
-    punc = re.compile(ur'[，；。？！＃＄％＆＇（）＊＋，·－／：；＜＝＞＠［＼］＾＿｀｛｜｝～｟｠｢｣､、〃《》「」『』【】〔〕〖〗〘〙〚〛〜〝〞〟〰〾〿–—‘’‛“”„‟…‧﹏.\s]')
-    with codecs.open(input_file, 'r', 'utf-8') as myfile:
+       1. 去掉标签
+       2. 去标点符号
+       3。去多余的空格
+       :param input_file:
+       :return:
+       '''
+    punc = re.compile(ur'[，；＃＄％＆＇（）()＊＋，·－／：；＜＝＞＠［＼］＾＿｀｛｜｝～｟｠｢｣､、〃《》「」『』【】〔〕〖〗〘〙〚〛〜〝〞〟〰〾〿–—‘’‛“”„‟…‧﹏.\s]')
+    outfile = codecs.open(out_path+'se_' + input_file, 'w', 'utf-8')
+    with codecs.open(in_path+input_file, 'r', 'utf-8') as myfile:
         for line in myfile:
+            line = BeautifulSoup(line.strip(), 'lxml').get_text()
+            line = punc.sub(' ',line)
+            line = re.sub('[ ]+', ' ', line)  # 去掉重复掉空格
             if len(line.strip()) == 0:
                 continue
-            sublines = re.findall(hanzi.sentence,line)
+            outfile.write(line.strip()+'\n')
+
+def wordcut(input_file):
+    thu1 = thulac.thulac(seg_only=True)
+    outfile = codecs.open(out_path + 'in_' + input_file, 'w', 'utf-8')
+    with codecs.open(in_path + input_file, 'r', 'utf-8') as myfile:
+        for line in myfile:
+            sublines = re.split(ur'[！？｡。]',line)
             for l in sublines:
-                l = punc.sub(' ',l) # 去标点符号
-                l = re.sub('[ ]+',' ',l) # 去掉重复掉空格
                 if len(l.strip()) == 0:
                     continue
-                else:
-                    outfile.write(l.strip()+'\n')
+                l = thu1.cut(l.strip(),text=True)
+                outfile.write(l.strip()+'\n')
 
-# getline('./data/wiki_test')
-getline('std_zh_wiki_00')
-getline('std_zh_wiki_01')
-getline('std_zh_wiki_02')
-# myfun('wiki_00')
-# myfun('wiki_01')
-# myfun('wiki_02')
-
-
-
-
+getsentence('std_zh_wiki_02')
+# wordcut('se_std_zh_wiki_02')
