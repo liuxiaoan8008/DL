@@ -9,20 +9,15 @@ import time
 data_path = '/var/data/wiki/wikiex/AA/in/'
 model_path = './model/'
 
-def sentence_pre_process(line):
-    line = BeautifulSoup(line, 'lxml').get_text()
-    return line
-
 class MySentences(object):
-    def __init__(self, dirname,thu1):
+    def __init__(self, dirname):
         self.dirname = dirname
-        self.thu1 = thu1
     def __iter__(self):
         for fname in os.listdir(self.dirname):
             for line in open(os.path.join(self.dirname, fname)):
-                line = thu1.cut(line,text=True) # preprocess
                 words = line.split()
                 yield words
+
 # Set values for various parameters
 num_features = 50    # Word vector dimensionality
 min_word_count = 40   # Minimum word count
@@ -34,9 +29,8 @@ model_name = 'w2c_wiki_50.model'
 
 def train_model():
     global thu1
-    # load sentence from the directory
-    thu1 = thulac.thulac()
-    sentences = MySentences(data_path, thu1)  # a memory-friendly iterator
+    # load sentence from the director
+    sentences = MySentences(data_path)  # a memory-friendly iterator
     print
     print 'train word2vec ...'
     model = word2vec.Word2Vec(sentences, workers=num_workers, size=num_features, min_count=min_word_count,

@@ -42,14 +42,14 @@ def mkdir(path):
         return False
 
 def train_model(sentences):
-    print 'build model path...'
+    print 'Step 2: build model path...'
     mkdir(model_path)
     print
-    print 'train word2vec ...'
+    print 'Step 3: train word2vec ...'
     model = word2vec.Word2Vec(sentences, workers=num_workers, size=num_features, min_count=min_word_count,
                               window=context, sample=downsampling,sg=sg,hs=hs)
     print
-    print 'save model...'
+    print 'Step 4: save model...'
     model.save(model_path + model_name)
     print
     print 'finish.'

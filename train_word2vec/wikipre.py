@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 in_path = './data/'
 out_path = './data/'
 model_path = ''
+
 reload(sys)                      # reload 才能调用 setdefaultencoding 方法
 sys.setdefaultencoding('utf-8')  # 设置 'utf-8'
 
@@ -54,6 +55,12 @@ def getsentence(input_file):
             outfile.write(line.strip()+'\n')
 
 def wordcut(input_file):
+    '''
+    1. 切分成句子
+    2。分词
+    :param input_file:
+    :return:
+    '''
     thu1 = thulac.thulac(seg_only=True)
     outfile = codecs.open(out_path + 'in_' + input_file, 'w', 'utf-8')
     with codecs.open(in_path + input_file, 'r', 'utf-8') as myfile:
@@ -65,5 +72,6 @@ def wordcut(input_file):
                 l = thu1.cut(l.strip(),text=True)
                 outfile.write(l.strip()+'\n')
 
-getsentence('std_zh_wiki_02')
+
+# getsentence('std_zh_wiki_02')
 # wordcut('se_std_zh_wiki_02')
