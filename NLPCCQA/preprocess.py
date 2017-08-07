@@ -50,7 +50,7 @@ def makeFeatureVec(words,model,num_features,sen_dim):
                 featureVec = np.add(featureVec, model[words[i]])
             else:
                 featureVec = np.add(featureVec, zeroVec)
-    print featureVec.shape
+    # print featureVec.shape
     return featureVec
 
 
@@ -62,12 +62,14 @@ def loadwor2vec_model(file_name):
 def text2vec(in_file,model,w2v_dim,sen_dim,out_file):
     data_matrix = []
     with open(in_file) as in_file:
+        counter = 0
         for line in in_file:
             words = line.split()
             w2v_matrix = makeFeatureVec(words,model,w2v_dim,sen_dim)
             data_matrix.append(w2v_matrix)
-    print data_matrix.shape
-    output = open('out_file', 'wb')
+            counter += 1
+            print counter
+    output = open(out_file, 'wb')
     pickle.dump(data_matrix, output)
 
 
@@ -79,5 +81,5 @@ sen_dim = 100
 w2v_dim = 50
 
 model = loadwor2vec_model(model_path+'w2v_wiki_50.model')
-text2vec(data_path+'nlpcc2016-q.training-data',model,w2v_dim,sen_dim,data_path+'nlpcc2016-q-w2v.training-data')
+text2vec(data_path+'nlpcc2016-a.training-data',model,w2v_dim,sen_dim,data_path+'nlpcc2016-a-w2v.training-data')
 

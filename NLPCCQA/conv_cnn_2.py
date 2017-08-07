@@ -38,7 +38,7 @@ def inference(q_data,a_data,word2vec_dimension,
               conv1_kernel_size,conv1_filter_number,
               conv2_kernel_size,conv2_filter_number,
               fc_1_w,fc_2_w,keep_prob):
-    with tf.device('/gpu:0'):
+    with tf.device('/cpu:0'):
         # convq
         with tf.name_scope('q_conv1'):
             q_W_conv1 = weight_variable([conv1_kernel_size, word2vec_dimension, 1, conv1_filter_number])  # patch 5*5 insize=1,outsize 32
@@ -52,7 +52,7 @@ def inference(q_data,a_data,word2vec_dimension,
             q_h_conv2 = tf.nn.tanh(conv2d(q_h_pool1,q_W_conv2,padding='SAME') + q_b_conv2)
             q_h_pool2 = max_pool_2x2(q_h_conv2)
             tf.summary.histogram('q_conv2/q_h_pool2', q_h_pool2)
-    with tf.device('/gpu:1'):
+    with tf.device('/cpu:0'):
         #conva
         with tf.name_scope('a_conv1'):
             a_W_conv1 = weight_variable([conv1_kernel_size, word2vec_dimension, 1, conv1_filter_number])  # patch 5*5 insize=1,outsize 32

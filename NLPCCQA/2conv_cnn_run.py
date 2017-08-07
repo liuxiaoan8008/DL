@@ -27,8 +27,8 @@ keep_prob_n = 0.6
 #全局数据index
 data_index = 0
 
-data_path= '/Users/liuxiaoan/ML/nlpcc2017/preprocess/fenci/'
-model_path='/Users/liuxiaoan/ML/nlpcc2017/cnn/model/'
+data_path= './data/'
+model_path='./model/'
 
 def load_data(filename,data_num):
     vectors=[]
@@ -136,12 +136,14 @@ def run_training(Q,A,L,T_q,T_a):
 
 # Q_data = load_data(data_path+'nlpcc2016-q.training-data',np.inf)
 # A_data = load_data(data_path+'nlpcc2016-a.training-data',np.inf)
-# L_data = load_label(data_path+'lpcc-iccpol-2016-label.dbqa.training-data',np.inf)
+L_data = load_label(data_path+'lpcc-iccpol-2016-label.dbqa.training-data',np.inf)
 # T_Q_data = load_data(data_path+'nlpcc2016-q.test-data',np.inf)
 # T_A_data = load_data(data_path+'nlpcc2016-a.test-data',np.inf)
+input_length = 100
+word2vec_dimension = 50
 
-Q_data = load_fromdump(data_path+'nlpcc2016-q-w2v.training-data')
-A_data = load_fromdump(data_path+'nlpcc2016-a-w2v.training-data')
+Q_data = load_fromdump(data_path+'nlpcc2016-q-w2v.training-data',input_length,word2vec_dimension)
+A_data = load_fromdump(data_path+'nlpcc2016-a-w2v.training-data',input_length,word2vec_dimension)
 
 
-# run_training(Q_data,A_data,L_data,None,None)
+run_training(Q_data,A_data,L_data,None,None)
