@@ -134,6 +134,7 @@ def run_training(Q,A,L,T_q,T_a):
                 # saver.save(sess, checkpoint_file, global_step=step)
                 predict(sess,Q[-1000:],q_data,A[-1000:],a_data,keep_prob,logits,step)
 
+start = time.time()
 # Q_data = load_data(data_path+'nlpcc2016-q.training-data',np.inf)
 # A_data = load_data(data_path+'nlpcc2016-a.training-data',np.inf)
 L_data = load_label(data_path+'lpcc-iccpol-2016-label.dbqa.training-data',np.inf)
@@ -147,3 +148,6 @@ A_data = load_fromdump(data_path+'nlpcc2016-a-w2v.training-data',input_length,wo
 
 
 run_training(Q_data,A_data,L_data,None,None)
+end = time.time()
+elapsed = end - start
+print 'The time token for training cnn model : ',elapsed/60*60,' h'
