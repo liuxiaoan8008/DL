@@ -127,7 +127,7 @@ def run_training(Q,A,L,T_q,T_a):
 
 Q_data = load_data(data_path+'nlpcc2016-q.training-data',np.inf)
 A_data = load_data(data_path+'nlpcc2016-a.training-data',np.inf)
-L_data = load_label(data_path+'lpcc-iccpol-2016-label.dbqa.training-data',np.inf)
+L_data = load_label(data_path+'nlpcc2016-l.training-data',np.inf)
 T_Q_data = load_data(data_path+'nlpcc2016-q.test-data',np.inf)
 T_A_data = load_data(data_path+'nlpcc2016-a.test-data',np.inf)
 
