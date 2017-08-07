@@ -3,6 +3,7 @@ import tensorflow as tf
 import conv_cnn_2 as cnn
 import time,os
 import numpy as np
+import pickle
 
 #输入数据维度
 input_length = 100
@@ -58,6 +59,14 @@ def load_label(filename,data_num):
     print vectors.shape
     return vectors
 
+def load_fromdump(filename,input_length,word2vec_dimension):
+    pkl_file = open(filename, 'rb')
+    data_vec = pickle.load(pkl_file)
+    data_vec = np.array(data_vec, dtype=np.float32)
+    print data_vec[0]
+    data_vec = data_vec.reshape([len(data_vec),input_length,word2vec_dimension,1])
+    print data_vec[0]
+    return data_vec
 
 def generate_batch(batch_size,Q_data,A_data,Y_data):
     global data_index
@@ -123,13 +132,16 @@ def run_training(Q,A,L,T_q,T_a):
             if step % 500 == 0 or (step + 1) == max_step:
                 # checkpoint_file = os.path.join(model_path,'model.ckpt')
                 # saver.save(sess, checkpoint_file, global_step=step)
-                predict(sess,Q_data[-100:],q_data,A_data[-100:],a_data,keep_prob,logits,step)
+                predict(sess,Q[-1000:],q_data,A[-1000:],a_data,keep_prob,logits,step)
 
-Q_data = load_data(data_path+'nlpcc2016-q.training-data',np.inf)
-A_data = load_data(data_path+'nlpcc2016-a.training-data',np.inf)
-L_data = load_label(data_path+'nlpcc2016-l.training-data',np.inf)
-T_Q_data = load_data(data_path+'nlpcc2016-q.test-data',np.inf)
-T_A_data = load_data(data_path+'nlpcc2016-a.test-data',np.inf)
+# Q_data = load_data(data_path+'nlpcc2016-q.training-data',np.inf)
+# A_data = load_data(data_path+'nlpcc2016-a.training-data',np.inf)
+# L_data = load_label(data_path+'lpcc-iccpol-2016-label.dbqa.training-data',np.inf)
+# T_Q_data = load_data(data_path+'nlpcc2016-q.test-data',np.inf)
+# T_A_data = load_data(data_path+'nlpcc2016-a.test-data',np.inf)
+
+Q_data = load_fromdump(data_path+'nlpcc2016-q-w2v.training-data')
+A_data = load_fromdump(data_path+'nlpcc2016-a-w2v.training-data')
 
 
-run_training(Q_data,A_data,L_data,T_Q_data,T_A_data)
+# run_training(Q_data,A_data,L_data,None,None)
