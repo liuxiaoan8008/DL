@@ -1,3 +1,4 @@
+#encoding=utf-8
 import thulac
 import sys
 from gensim.models import word2vec
@@ -34,7 +35,7 @@ def wordcutzhcn(in_file, out_file1, out_file2, out_file3):
 def makeFeatureVec(words,model,num_features,sen_dim):
     featureVec = np.zeros((sen_dim,num_features),dtype='float32')
     zeroVec = np.zeros((num_features,),dtype='float32')
-    index2word_set = set(model.keys())
+    index2word_set = set(model.wv.index2word)
     if len(words) < sen_dim:
         for word in words:
             if word in index2word_set:
@@ -49,6 +50,7 @@ def makeFeatureVec(words,model,num_features,sen_dim):
                 featureVec = np.add(featureVec, model[words[i]])
             else:
                 featureVec = np.add(featureVec, zeroVec)
+    print featureVec.shape
     return featureVec
 
 
@@ -64,6 +66,7 @@ def text2vec(in_file,model,w2v_dim,sen_dim,out_file):
             words = line.split()
             w2v_matrix = makeFeatureVec(words,model,w2v_dim,sen_dim)
             data_matrix.append(w2v_matrix)
+    print data_matrix.shape
     output = open('out_file', 'wb')
     pickle.dump(data_matrix, output)
 
