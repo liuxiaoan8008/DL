@@ -48,7 +48,7 @@ elapsed = end - start
 print 'The time token for training gensim-SG model : ',elapsed/60,'min'
 # load trained model
 # print 'loading model ...'
-# model = word2vec.Word2Vec.load(model_path+model_name)
+model = word2vec.Word2Vec.load(model_path+model_name)
 # # word_vectors = model.wv.syn0 # word2vec vocab numpy matirx
 # vocab_list = model.wv.index2word # wrod2vec vocab list
 # print len(vocab_list)
