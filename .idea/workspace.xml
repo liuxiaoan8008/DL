@@ -2,9 +2,1031 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee1175e2-743a-4be9-95f3-a97574e97e07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensorflow_study/linear_regression.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensorflow_study/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_word2vec/word2vec_bigdata.py" afterPath="$PROJECT_DIR$/train_word2vec/word2vec_bigdata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/events.out.tfevents.1496453014.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/events.out.tfevents.1496457198.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/events.out.tfevents.1496458780.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/events.out.tfevents.1496464605.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/events.out.tfevents.1496465195.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/events.out.tfevents.1496465290.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/events.out.tfevents.1496465486.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3/events.out.tfevents.1496446299.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3/events.out.tfevents.1496446399.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3/events.out.tfevents.1496446490.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3/events.out.tfevents.1496447994.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3/events.out.tfevents.1496448059.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3/events.out.tfevents.1496448173.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3/events.out.tfevents.1496448503.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/events.out.tfevents.1496466841.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/events.out.tfevents.1496466881.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/events.out.tfevents.1496627391.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/events.out.tfevents.1496627575.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/events.out.tfevents.1496638399.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/events.out.tfevents.1496639246.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/events.out.tfevents.1496639388.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/events.out.tfevents.1496640529.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/events.out.tfevents.1496650494.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/events.out.tfevents.1496652513.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/events.out.tfevents.1496650890.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/events.out.tfevents.1496651345.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/events.out.tfevents.1496653929.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/events.out.tfevents.1496656744.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/events.out.tfevents.1496656942.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/events.out.tfevents.1496656972.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/events.out.tfevents.1496458866.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/events.out.tfevents.1496450015.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/events.out.tfevents.1496451085.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/events.out.tfevents.1496451130.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/events.out.tfevents.1496451309.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/events.out.tfevents.1496451989.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/events.out.tfevents.1496452488.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/events.out.tfevents.1496452593.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/events.out.tfevents.1496452786.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_1_log/events.out.tfevents.1495356895.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_1_log/events.out.tfevents.1495357019.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_1_log/events.out.tfevents.1495357196.liuxiaoandeMBP.lan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2_log/events.out.tfevents.1495536558.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2_log/events.out.tfevents.1495536718.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2_log/events.out.tfevents.1495552600.liuxiaoandeMacBook-Pro.local" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att_2.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att_2/1/events.out.tfevents.1502007243.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att_2/1/events.out.tfevents.1502007312.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att_2/1/events.out.tfevents.1502007338.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att_2/1/events.out.tfevents.1502007626.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att_2/50/events.out.tfevents.1502007128.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_xulie_log/events.out.tfevents.1495505261.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_xulie_log/events.out.tfevents.1495505408.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_xulie_log/events.out.tfevents.1495505838.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495155711.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495156343.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495156372.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495156422.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495156465.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495156497.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495156632.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495156991.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_log/events.out.tfevents.1495157051.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/logs/events.out.tfevents.1495435723.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/logs/events.out.tfevents.1495435954.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/logs/events.out.tfevents.1495436184.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/logs/events.out.tfevents.1495436471.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/Awv1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/Qwv1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/nlpcc-iccpol-2016.dbqa.testing-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/cnn1_att1_log/events.out.tfevents.1495805355.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/cnn1_att1_log/events.out.tfevents.1495805959.bogon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/.idea/dictionaries/liuxiaoan.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/.idea/markdown-navigator/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/.idea/nlpcc2017.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/data/feature_8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/data/test2016_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/data/train2016_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/data/train2016_data_all.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/data/train2016_data_all_5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/data/train2016_label_all.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_10_8/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_10_8/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_5/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_18w/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_20000_1_pre_order.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_8_30w_17all/top10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_20000_1_pre_order.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10/top10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2016/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_20000_1_pre_order.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top10_2017/top10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_20000_1_pre_order.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20/top10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_add_top20_17all/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_11000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_11000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_12000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_12000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_13000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_13000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_14000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_14000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_15000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_15000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_16000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_16000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_17000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_17000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_18000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_18000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_19000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_19000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_3_square_add4w/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp5_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_4/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_5/mlp5_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_6/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_7/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_8/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_1000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_1000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_2000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_2000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_3000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_3000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_4000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_4000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_5000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_5000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_6000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_6000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_7000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_7000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_8000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_8000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_9000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/log_9/mlp_9000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/mlp_3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/preprocess.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_100000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_100000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_10000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_10000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_20000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_20000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_30000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_30000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_40000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_40000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_50000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_50000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_60000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_60000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_70000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_70000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_80000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_80000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_90000_0_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/MLP/score/mlp_90000_1_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/2conv_cnn_class_run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/2conv_cnn_run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/2conv_cnn_run_new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1099_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1199_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1299_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1399_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1499_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1599_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1699_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1799_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1899_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_1999_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_199_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_299_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_399_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_499_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_599_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_699_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_799_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_899_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_999_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/cnn2_99_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_10w_xulie/label1w.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1099_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1199_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1299_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1399_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1499_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1599_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1699_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1799_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1899_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_1999_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_199_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_299_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_399_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_499_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_599_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_699_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_799_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_899_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_999_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_2_att2/cnn2_99_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_net.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1099_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1199_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1299_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1399_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1499_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1599_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1699_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1799_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1899_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_1999_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_199_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_299_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_399_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_499_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_599_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_699_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_799_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_899_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_999_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn2_99_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/cnn_xulie/cnn_18w_1000.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/con_w2v_run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2_attenpooling.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2_attenpooling_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2_attenpooling_2_matrix2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2_attentionpooling_2c.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2_class2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/conv_cnn_2_w2v.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/demo_cnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn1_base_square_1w_window2_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn1_base_square_1w_window3_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn1_base_square_1w_window4_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn2_W2V_batch100_square_1w_window3_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn2_W2V_square_1w_window3_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn2_base_1w_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn2_base_1w_window2_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn2_base_1w_window4_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/cnn2_square_1w_window3_pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/label1000.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/pre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/model/w2v_1000.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/simi_cnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/cnn/simi_run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/Two_qustionword_5gram_searchKW.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/Two_qustionword_5gram_searchKWv2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/award.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/countQAlenght.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/dic/hagongda-6_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/dic/key_key.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/dic/question_word.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/extract_score.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/test2016_meteor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type1/3w_mapword_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type1/3w_num_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type1/3w_simword_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type2/3w_mapword_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type2/3w_num_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type2/3w_simword_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type3/3w_mapword_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type3/3w_num_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/feature/type3/3w_simword_feature.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/6579-end" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/6579.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-answer-s.dbqa.fenci_search.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-answer.dbqa.fenci.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-answer.dbqa.fenci_search.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-label-s.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-label.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-question-count.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-question-one.dbqa.fenci.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-question-one.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-question-s.dbqa.fenci_search.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-question.dbqa.fenci.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/lpcc-iccpol-2016-question.dbqa.fenci_search.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/nlpcc2017-answer-seq.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/nlpcc2017-question-seq-all.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/nlpcc2017-question-seq.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/fenci/trick.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/getfeature.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/getsamelabel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/rebuild.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/AA_all_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/AA_no_symbol_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/A_all_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/A_no_symbol_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/anwser_morethan100.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/q_a_same.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/question_num.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/question_wordcount.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/statistic/word_seq.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/stopwords.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/tokenizer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/tokenizerrun.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/label.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/nlpcc-iccpol-2016.dbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/our_label.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/our_qalabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/ourlabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/qalabel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/train&amp;testdata/testnumber.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/tttest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/preprocess/wordseq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/shuishen_att.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/cnn1_att1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/cnn1_att1_runner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/countQAlenght.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/nlpcc-2017.tbqa.testset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/nlpcc-iccpol-2017.tbqa.training-data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/test_attributes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/test_cells.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/test_description.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/test_question.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/train_attributes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/train_cells.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/train_description.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/train_description_seq.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/train_label.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/train_question.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/data/train_question_seq.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/test_meteor_q_att.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/test_meteor_q_cell.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/test_meteor_score_q_att.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/test_meteor_score_q_cell    y`.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/train_meteor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/train_meteor_q_att.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/train_meteor_q_cell.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/train_meteor_score.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/train_meteor_score_q_att.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/feature/train_meteor_score_q_cell.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/preprocess.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/AA_all_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/AA_no_symbol_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/att_all_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/att_no_symbol_lenght.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/table_wordcount.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/train_description_morethan100.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/train_question_morethan100.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/statistic/word_seq.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nlpcc2017/tableQA/wordseq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,18 +1064,6 @@
             <state relative-caret-position="555">
               <caret line="44" column="21" selection-start-line="32" selection-start-column="0" selection-end-line="44" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorflow_study/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -225,6 +1235,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlpcc2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -236,18 +1260,19 @@
     <property name="last_opened_file_path" value="/home" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NLPCCQA/data" />
-      <recent name="$PROJECT_DIR$/NLPCCQA/cnn/500" />
-      <recent name="$PROJECT_DIR$/NLPCCQA/cnn/50" />
-      <recent name="$PROJECT_DIR$/NLPCCQA/cnn/400" />
-      <recent name="$PROJECT_DIR$/NLPCCQA/cnn/300" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/train_word2vec" />
       <recent name="$PROJECT_DIR$/sementic_analysis/data" />
       <recent name="$PROJECT_DIR$/sementic_analysis/model" />
       <recent name="$PROJECT_DIR$/sementic_analysis" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/NLPCCQA/data" />
+      <recent name="$PROJECT_DIR$/NLPCCQA/cnn/500" />
+      <recent name="$PROJECT_DIR$/NLPCCQA/cnn/50" />
+      <recent name="$PROJECT_DIR$/NLPCCQA/cnn/400" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
@@ -669,18 +1694,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30547947" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17534247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23972602" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6657534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3178082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23972602" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -745,13 +1770,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sementic_analysis/globalvec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train_word2vec/data/wiki_test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1046,7 +2064,7 @@
         <state relative-caret-position="135">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1119,6 +2137,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="44" column="84" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
